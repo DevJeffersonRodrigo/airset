@@ -1,6 +1,6 @@
 #!/bin/bash
 # install_airset
-Instalação completa do Airset
+#Instalação completa do Airset
 echo "Instalação completa do Airset"
 sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
