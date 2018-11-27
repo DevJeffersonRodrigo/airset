@@ -2,7 +2,10 @@
 # install_airset
 #Instalação completa do Airset
 echo "Instalação completa do Airset"
-sudo git clone https://github.com/alefcarvalho/airset.git
+sudo rm -rf /root/install_airset/install_airset_update
+sudo rm -rf /home/$USER/install_airset/install_airset_update
+sudo rm -rf /root/install_airset/install_airset_update
+sudo git clone https://github.com/alefcarvalho/airset.git -v $nome install_airset_update
 echo ""
 echo "" cd airset
 sudo unzip airset.zip
