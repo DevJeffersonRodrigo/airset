@@ -4,9 +4,9 @@
 echo "Instalação completa do Airset"
 sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
-echo "" cd airset
+sudo cd airset
 sudo unzip airset.zip
-echo "" cd airset
+sudo cd airset
 sudo chmod 777 airmon && sudo chmod 777 airset
 sudo ./airset
 echo ""
