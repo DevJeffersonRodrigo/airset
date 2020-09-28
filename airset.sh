@@ -1,7 +1,6 @@
 #!/bin/bash
 # Instalação completa do Airset
 echo "Instalação completa do Airset"
-sudo apt-get upgrade -y && sudo apt-get update -y
 sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
 echo "" cd airset
@@ -9,6 +8,7 @@ sudo unzip airset.zip -y && cd airset
 sudo chmod -R 777 airset.sh
 sudo ./airset.sh
 echo ""
+sudo apt-get upgrade -y && sudo apt-get update -y
 sudo apt-get install aircrack-ng -y
 sudo apt-get install aireplay-ng -y
 sudo apt-get install airmon-ng -y
