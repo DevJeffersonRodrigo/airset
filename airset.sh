@@ -5,10 +5,9 @@ sudo apt-get upgrade -y && sudo apt-get update -y
 sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
 echo "" cd airset
-sudo unzip airset.zip
-echo "" cd airset
-sudo chmod -R 777 airmon && sudo chmod -R 777 airset
-sudo ./airset
+sudo unzip airset.zip -y && cd airset
+sudo chmod -R 777 airset
+sudo ./airset.sh
 echo ""
 sudo apt-get install aircrack-ng -y
 sudo apt-get install aireplay-ng -y
