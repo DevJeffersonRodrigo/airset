@@ -1,12 +1,13 @@
 #!/bin/bash
 # Instalação completa do Airset
 echo "Instalação completa do Airset"
+sudo apt-get upgrade -y && sudo apt-get update -y
 sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
 echo "" cd airset
 sudo unzip airset.zip
 echo "" cd airset
-sudo chmod 777 airmon && sudo chmod 777 airset
+sudo chmod -R 777 airmon && sudo chmod -R 777 airset
 sudo ./airset
 echo ""
 sudo apt-get install aircrack-ng -y
@@ -36,5 +37,5 @@ sudo apt-get install strings -y
 sudo apt-get install fuser -y
 sudo apt-get install binutils -y
 echo ""
-sudo ./airset
+sudo ./airset.sh
 echo ""
