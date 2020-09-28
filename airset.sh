@@ -6,7 +6,7 @@ sudo git clone https://github.com/alefcarvalho/airset.git
 echo ""
 echo "" cd airset
 sudo unzip airset.zip -y && cd airset
-sudo chmod -R 777 airset
+sudo chmod -R 777 airset.sh
 sudo ./airset.sh
 echo ""
 sudo apt-get install aircrack-ng -y
